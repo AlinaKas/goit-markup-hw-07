@@ -562,15 +562,6 @@ img {
   color: rgba(255, 255, 255, 0.6);
 }
 
-/*  Стилизация фона для инпута с подсказкой ввода */
-/* 
-.footer-form-input:-webkit-autofill,
-.footer-form-input:-webkit-autofill:hover,
-.footer-form-input:-webkit-autofill:focus {
-  -webkit-text-fill-color: rgba(255, 255, 255, 0.6);
-  -webkit-box-shadow: 0 0 0px 1000px var(--secondary-bcg-color) inset;
-} */
-
 .footer-btn {
   display: flex;
   justify-content: center;
@@ -812,10 +803,6 @@ img {
   transition: border-color var(--duration-animation) var(--timing-function);
 }
 
-.contact-form-input:focus-within {
-  color: var(--accent-font);
-}
-
 .contact-form-input:focus,
 .contact-form-message:focus {
   outline: none;
@@ -861,19 +848,15 @@ img {
   color: rgba(117, 117, 117, 0.5);
 }
 
-.checkbox-wraper {
-  text-align: center;
-}
-
 .contact-form-label-policy {
-  display: inline-block;
-  vertical-align: middle;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 30px;
 }
 
 .contact-form-label-policy::before {
   display: inline-block;
-  vertical-align: middle;
   content: '';
 
   width: 16px;
