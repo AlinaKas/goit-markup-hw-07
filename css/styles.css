@@ -168,7 +168,7 @@ img {
   color: var(--accent-color);
 }
 
-.logo--part-dark {
+.logo--accent-dark {
   color: #000000;
 }
 
@@ -483,7 +483,7 @@ img {
   margin-top: 20px;
 }
 
-.logo--part-light {
+.logo--accent-light {
   color: var(--primary-bcg-color);
 }
 
@@ -577,18 +577,18 @@ img {
 /* ---END FOOTER--- */
 
 /* ---Styles for Portfolio.html-- */
-/* ---PROJECT SET--- */
-.project-filter {
+/* ---PROJECTS--- */
+.filter {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
 }
 
-.project-filter__item:not(:last-child) {
+.filter__item:not(:last-child) {
   margin-right: 8px;
 }
 
-.project-filter__btn {
+.filter__btn {
   min-width: 73px;
   padding: 6px 21px;
   border: none;
@@ -606,21 +606,21 @@ img {
     box-shadow var(--duration-animation) var(--timing-function);
 }
 
-.project-filter__btn:hover,
-.project-filter__btn:focus {
+.filter__btn:hover,
+.filter__btn:focus {
   color: var(--primary-bcg-color);
   background-color: var(--accent-color);
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.08), 0 3px 1px 0 rgba(0, 0, 0, 0.1);
 }
 
-.project-set {
+.card-set {
   display: flex;
   flex-wrap: wrap;
   margin-left: calc(-1 * var(--grid-gap));
   margin-top: calc(-1 * var(--grid-gap));
 }
 
-.project-set__item {
+.card-set__item {
   flex-basis: calc((100% - var(--grid-item) * var(--grid-gap)) / var(--grid-item));
   --grid-item: 3;
   margin-left: var(--grid-gap);
@@ -692,7 +692,7 @@ img {
   color: var(--text-color);
 }
 
-/* ---END PROJECT SET--- */
+/* ---END PROJECTS--- */
 
 /* ---MODAL WINDOW--- */
 .backdrop {
