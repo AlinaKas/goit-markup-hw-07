@@ -168,7 +168,7 @@ img {
   color: var(--accent-color);
 }
 
-.logo-part-dark {
+.logo--part-dark {
   color: #000000;
 }
 
@@ -483,7 +483,7 @@ img {
   margin-top: 20px;
 }
 
-.logo-part-light {
+.logo--part-light {
   color: var(--primary-bcg-color);
 }
 
@@ -527,13 +527,13 @@ img {
   background-color: rgb(255, 255, 255, 0.1);
 }
 
-.footer-form {
+.form-email {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.footer-form__input {
+.form-email__input {
   width: 358px;
   height: 50px;
   padding: 15px 16px;
@@ -554,15 +554,15 @@ img {
   transition: border-color var(--duration-animation) var(--timing-function);
 }
 
-.footer-form__input:focus {
+.form-email__input:focus {
   border-color: var(--accent-color);
 }
 
-.footer-form__input::placeholder {
+.form-email__input::placeholder {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-form__btn {
+.form-email__btn {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -570,7 +570,7 @@ img {
   padding: 10px 28px;
 }
 
-.footer-form__icon {
+.form-email__icon {
   margin-left: 10px;
 }
 
@@ -736,7 +736,7 @@ img {
   transform: translate(-50%, -50%) scale(0.9);
 }
 
-.modal__close-btn {
+.btn-close {
   position: absolute;
   top: 8px;
   right: 8px;
@@ -755,8 +755,8 @@ img {
   transition: fill var(--duration-animation) var(--timing-function);
 }
 
-.modal__close-btn:hover,
-.modal__close-btn:focus {
+.btn-close:hover,
+.btn-close:focus {
   fill: var(--accent-color);
 }
 
