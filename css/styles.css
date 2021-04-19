@@ -149,6 +149,14 @@ img {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   cursor: pointer;
 }
+
+.logo {
+  font-family: var(--accent-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--accent-color);
+}
 /* ---END COMPONENTS--- */
 
 /* ---HEADER---*/
@@ -160,12 +168,10 @@ img {
   letter-spacing: 0.02em;
 }
 
-.logo {
-  font-family: var(--accent-font);
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  color: var(--accent-color);
+.header__logo {
+  margin-right: 93px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .logo__accent-dark {
@@ -191,12 +197,6 @@ img {
   display: inline-flex;
   align-items: center;
   margin-left: auto;
-}
-
-.nav .logo {
-  margin-right: 93px;
-  padding-top: 20px;
-  padding-bottom: 20px;
 }
 
 .nav__link {
@@ -511,7 +511,7 @@ img {
   color: var(--primary-bcg-color);
 }
 
-.social-list--start-position {
+.footer__social-list {
   justify-content: flex-start;
 }
 
@@ -573,7 +573,6 @@ img {
 .form-email__icon {
   margin-left: 10px;
 }
-
 /* ---END FOOTER--- */
 
 /* ---Styles for Portfolio.html-- */
