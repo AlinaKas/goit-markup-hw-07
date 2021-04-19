@@ -20,19 +20,19 @@
   border: 1px solid var(--icon-color);
   border-radius: 4px;
   transition: border-color var(--duration-animation) var(--timing-function);
-}
 
-.client__link:hover,
-.client__link:focus {
-  border-color: var(--accent-color);
+  &:hover,
+  &:focus {
+    border-color: var(--accent-color);
+  }
 }
 
 .client__icon {
   fill: var(--icon-color);
   transition: fill var(--duration-animation) var(--timing-function);
-}
 
-.client__link:hover .client__icon,
-.client__link:focus .client__icon {
-  fill: var(--accent-color);
+  .client__link:hover &,
+  .client__link:focus & {
+    fill: var(--accent-color);
+  }
 }

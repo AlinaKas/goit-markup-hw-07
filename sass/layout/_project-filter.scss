@@ -4,8 +4,10 @@
   margin-bottom: 50px;
 }
 
-.filter__item:not(:last-child) {
-  margin-right: 8px;
+.filter__item {
+  &:not(:last-child) {
+    margin-right: 8px;
+  }
 }
 
 .filter__btn {
@@ -24,11 +26,11 @@
   transition: color var(--duration-animation) var(--timing-function),
     background-color var(--duration-animation) var(--timing-function),
     box-shadow var(--duration-animation) var(--timing-function);
-}
 
-.filter__btn:hover,
-.filter__btn:focus {
-  color: var(--primary-bcg-color);
-  background-color: var(--accent-color);
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.08), 0 3px 1px 0 rgba(0, 0, 0, 0.1);
+  &:hover,
+  &:focus {
+    color: var(--primary-bcg-color);
+    background-color: var(--accent-color);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.08), 0 3px 1px 0 rgba(0, 0, 0, 0.1);
+  }
 }
