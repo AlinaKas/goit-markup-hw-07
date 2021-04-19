@@ -17,5 +17,10 @@
     ],
     "liveSassCompile.settings.generateMap": true,
     "liveServer.settings.port": 1235,
-    // "liveSassCompile.settings.autoprefix": null
+    "liveSassCompile.settings.autoprefix": null,
+    "materialTheme.accent": "Graphite",
+    "workbench.colorTheme": "Default Dark+",
+    "workbench.preferredDarkColorTheme": "Material Theme Darker",
+    "workbench.preferredHighContrastColorTheme": "Monokai",
+    "workbench.preferredLightColorTheme": "Visual Studio Dark"
 }
