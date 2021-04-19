@@ -168,11 +168,11 @@ img {
   color: var(--accent-color);
 }
 
-.logo--accent-dark {
+.logo__accent-dark {
   color: #000000;
 }
 
-.header .container {
+.header__container {
   display: flex;
   align-items: center;
 }
@@ -224,15 +224,15 @@ img {
 .nav__link:focus,
 .contacts-header__link:hover,
 .contacts-header__link:focus,
-.nav__link.current {
+.nav__link--current {
   color: var(--accent-color);
 }
 
-.nav__link.current {
+.nav__link--current {
   position: relative;
 }
 
-.nav__link.current::after {
+.nav__link--current::after {
   content: '';
 
   position: absolute;
@@ -325,7 +325,7 @@ img {
   height: 70px;
 }
 
-.ffeature__subtitle {
+.feature__subtitle {
   margin-bottom: 10px;
   font-size: 14px;
   line-height: 1.14;
@@ -335,7 +335,7 @@ img {
 /* ---END FEATURE--- */
 
 /* ---SERVICES--- */
-.services.section {
+.services {
   padding-top: 0;
 }
 
@@ -376,7 +376,7 @@ img {
 /* ---END SERVICES--- */
 
 /* ---TEAM--- */
-.team.section {
+.team {
   background: var(--add-bcg-color);
 }
 
@@ -465,7 +465,7 @@ img {
   background-color: var(--secondary-bcg-color);
 }
 
-.footer .container {
+.footer__container {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
@@ -483,7 +483,7 @@ img {
   margin-top: 20px;
 }
 
-.logo--accent-light {
+.logo__accent-light {
   color: var(--primary-bcg-color);
 }
 
@@ -511,15 +511,15 @@ img {
   color: var(--primary-bcg-color);
 }
 
-.footer .social-list {
+.social-list--start-position {
   justify-content: flex-start;
 }
 
-.footer .social-list__item:not(:last-child) {
+.social-list__item:not(:last-child) {
   margin-right: 10px;
 }
 
-.footer .social-list__icon {
+.social-list__icon--color {
   fill: var(--primary-bcg-color);
 }
 
@@ -784,7 +784,7 @@ img {
   color: inherit;
 }
 
-.contact-form__input-wraper {
+.contact-form__input-wrapper {
   position: relative;
   display: block;
 }
@@ -809,7 +809,7 @@ img {
   border-color: var(--accent-color);
 }
 
-.contact-form__input:focus + .contact-form-icon {
+.contact-form__input:focus + .contact-form__icon {
   fill: var(--accent-color);
 }
 

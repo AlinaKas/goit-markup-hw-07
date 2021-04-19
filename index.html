@@ -15,11 +15,11 @@
 <body>
     <!-- Header -->
     <header class="header">
-        <div class="container">
+        <div class="container header__container">
             <nav class="nav">
-                <a class="logo link" href="./" lang="en">Web<span class="logo--accent-dark">Studio</span></a>
+                <a class="logo link" href="./" lang="en">Web<span class="logo__accent-dark">Studio</span></a>
                 <ul class="nav__list list">
-                    <li class="nav__item"><a class="nav__link link current" href="./">Студия</a></li>
+                    <li class="nav__item"><a class="nav__link link nav__link--current" href="./">Студия</a></li>
                     <li class="nav__item"><a class="nav__link link" href="./portfolio.html">Портфолио</a></li>
                     <li class="nav__item"><a class="nav__link link" href="">Контакты</a></li>
                 </ul>
@@ -332,9 +332,9 @@
         
         <!-- Footer -->
     <footer class="footer">
-        <div class="container">
+        <div class="container footer__container">
             <div class="footer__block">
-                <a class="logo link" href="./" lang="en">Web<span class="logo--accent-light">Studio</span></a>
+                <a class="logo link" href="./" lang="en">Web<span class="logo__accent-light">Studio</span></a>
                 <div class="contacts-footer">
                     <address class="adress">г. Киев, пр-т Леси Украинки, 26</address>
                     <ul class="list">
@@ -348,31 +348,31 @@
             </div>
             <div class="footer__block">
                 <p class="footer__subtitle">Присоединяйтесь</p>
-                <ul class="social-list list">
+                <ul class="social-list social-list--start-position list">
                     <li class="social-list__item">
                         <a href="" class="social-list__link link">
-                            <svg class="social-list__icon">
+                            <svg class="social-list__icon social-list__icon--color">
                                 <use href="./images/sprite.svg#icon-instagram"></use>
                             </svg>
                         </a>
                     </li>
                     <li class="social-list__item">
                         <a href="" class="social-list__link link">
-                            <svg class="social-list__icon">
+                            <svg class="social-list__icon social-list__icon--color">
                                 <use href="./images/sprite.svg#icon-twitter"></use>
                             </svg>
                         </a>
                     </li>
                     <li class="social-list__item">
                         <a href="" class="social-list__link link">
-                            <svg class="social-list__icon">
+                            <svg class="social-list__icon social-list__icon--color">
                                 <use href="./images/sprite.svg#icon-facebook"></use>
                             </svg>
                         </a>
                     </li>
                     <li class="social-list__item">
                         <a href="" class="social-list__link link">
-                            <svg class="social-list__icon">
+                            <svg class="social-list__icon social-list__icon--color">
                                 <use href="./images/sprite.svg#icon-linkedin"></use>
                             </svg>
                         </a>
@@ -404,7 +404,7 @@
                 <p class="contact-form__title">Оставьте свои данные, мы вам перезвоним</p>
                 
                 <label class="contact-form__label">Имя
-                    <span class="contact-form__input-wraper">
+                    <span class="contact-form__input-wrapper">
                         <input name="user-name" type="text" class="contact-form__input" >
                         <svg class="contact-form__icon">
                             <use href="./images/sprite.svg#icon-person-form"></use>
@@ -413,7 +413,7 @@
                 </label>
 
                 <label class="contact-form__label">Телефон
-                    <span class="contact-form__input-wraper">
+                    <span class="contact-form__input-wrapper">
                         <input name="user-phone" type="tel" class="contact-form__input">
                         <svg class="contact-form__icon">
                             <use href="./images/sprite.svg#icon-phone-form"></use>
@@ -421,7 +421,7 @@
                     </span>
                 </label>
                 <label class="contact-form__label">Почта
-                    <span class="contact-form__input-wraper">
+                    <span class="contact-form__input-wrapper">
                         <input name="user-mail" type="email" class="contact-form__input">
                         <svg class="contact-form__icon">
                             <use href="./images/sprite.svg#icon-mail-form"></use>
