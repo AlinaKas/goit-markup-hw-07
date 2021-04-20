@@ -1,7 +1,6 @@
 .filter {
   display: flex;
   justify-content: center;
-  align-items: center;
   margin-bottom: 50px;
 }
 
@@ -22,6 +21,7 @@
   line-height: 1.63;
   color: var(--title-color);
   background-color: var(--add-bcg-color);
+  text-align: center;
   cursor: pointer;
 
   transition: color var(--duration-animation) var(--timing-function),
