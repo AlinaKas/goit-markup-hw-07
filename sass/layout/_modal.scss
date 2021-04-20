@@ -19,14 +19,14 @@
   transform: translate(-50%, -50%) scale(0.9);
 }
 
-.btn-close {
+.modal__btn-close {
   position: absolute;
   top: 8px;
   right: 8px;
   width: 30px;
   height: 30px;
 
-   @extend %align;
+  @extend %align;
   // display: flex;
   // align-items: center;
   justify-content: center;
@@ -37,10 +37,8 @@
   cursor: pointer;
   transition: fill var(--duration-animation) var(--timing-function);
 
-   &:hover,
-   &:focus {
-   fill: var(--accent-color);
+  &:hover,
+  &:focus {
+    fill: var(--accent-color);
   }
 }
-
-

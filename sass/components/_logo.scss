@@ -6,10 +6,12 @@
   color: var(--accent-color);
 }
 
-.logo__accent--dark {
-  color: #000000;
-}
+.logo__accent {
+  &--dark {
+    color: #000000;
+  }
 
-.logo__accent--light {
-  color: var(--primary-bcg-color);
+  &--light {
+    color: var(--primary-bcg-color);
+  }
 }
