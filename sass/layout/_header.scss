@@ -17,18 +17,18 @@
   @include padding(20px, 20px);
 }
 
-.nav {
+.header__nav {
   @extend %align;
   // display: flex;
   // align-items: center;
 }
 
-.nav__list {
+.header__nav-list {
   display: inline-flex;
   align-items: center;
 }
 
-.nav__link {
+.header__nav-link {
   display: inline-block;
   @include padding(32px, 32px);
 
@@ -60,7 +60,7 @@
   }
 }
 
-.nav__item,
+.header__nav-item,
 .contacts__item {
   &:not(:last-child) {
     margin-right: 50px;
