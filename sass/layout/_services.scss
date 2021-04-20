@@ -3,18 +3,14 @@
 }
 
 .services__list {
-  display: flex;
-  margin-left: calc(-1 * var(--grid-gap));
-  margin-top: calc(-1 * var(--grid-gap));
+  @extend %grid;
 }
 
 .services__item {
   position: relative;
 
-  flex-basis: calc((100% - var(--grid-item) * var(--grid-gap)) / var(--grid-item));
+  @extend %grid-item;
   --grid-item: 3;
-  margin-left: var(--grid-gap);
-  margin-top: var(--grid-gap);
 }
 
 .services__overlay {

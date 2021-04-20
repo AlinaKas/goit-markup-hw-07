@@ -3,16 +3,12 @@
 }
 
 .team__list {
-  display: flex;
-  margin-left: calc(-1 * var(--grid-gap));
-  margin-top: calc(-1 * var(--grid-gap));
+  @extend %grid;
 }
 
 .team__item {
-  flex-basis: calc((100% - var(--grid-item) * var(--grid-gap)) / var(--grid-item));
+  @extend %grid-item;
   --grid-item: 4;
-  margin-left: var(--grid-gap);
-  margin-top: var(--grid-gap);
 
   text-align: center;
   background-color: var(--primary-bcg-color);

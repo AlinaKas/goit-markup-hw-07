@@ -1,15 +1,11 @@
 .card-set {
-  display: flex;
   flex-wrap: wrap;
-  margin-left: calc(-1 * var(--grid-gap));
-  margin-top: calc(-1 * var(--grid-gap));
+  @extend %grid;
 }
 
 .card-set__item {
-  flex-basis: calc((100% - var(--grid-item) * var(--grid-gap)) / var(--grid-item));
+  @extend %grid-item;
   --grid-item: 3;
-  margin-left: var(--grid-gap);
-  margin-top: var(--grid-gap);
 }
 
 .project-card {
