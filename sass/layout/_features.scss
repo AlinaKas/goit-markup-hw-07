@@ -12,13 +12,14 @@
 }
 
 .feature__thumb {
-  display: flex;
+  @extend %align;
+  // display: flex;
+  // align-items: center;
+  justify-content: center;
   width: 270px;
   height: 120px;
   margin-bottom: 30px;
   background-color: var(--add-bcg-color);
-  align-items: center;
-  justify-content: center;
 }
 
 .feature__icon {

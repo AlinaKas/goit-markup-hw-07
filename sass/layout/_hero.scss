@@ -1,9 +1,7 @@
 .hero {
   max-width: 1600px;
-  padding-top: 200px;
-  padding-bottom: 200px;
-  margin-left: auto;
-  margin-right: auto;
+  @include padding(200px, 200px);
+  @extend %centered;
   text-align: center;
 
   background-color: var(--secondary-bcg-color);
@@ -16,8 +14,7 @@
 
 .hero__title {
   max-width: 700px;
-  margin-right: auto;
-  margin-left: auto;
+  @extend %centered;
   margin-bottom: 30px;
 
   font-weight: 900;

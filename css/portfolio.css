@@ -26,6 +26,16 @@
   overflow: hidden;
 }
 
+.social-list__link, .header__container, .nav, .contacts__link {
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
 /* Base */
 html {
   box-sizing: border-box;
@@ -80,8 +90,6 @@ img {
 
 .container {
   width: 1200px;
-  margin-right: auto;
-  margin-left: auto;
   padding-right: 15px;
   padding-left: 15px;
 }
@@ -122,11 +130,9 @@ img {
 }
 
 .social-list__link {
-  display: flex;
+  justify-content: center;
   width: 44px;
   height: 44px;
-  align-items: center;
-  justify-content: center;
   border-radius: 50%;
   transition: background-color var(--duration-animation) var(--timing-function);
 }
@@ -187,20 +193,10 @@ img {
   letter-spacing: 0.02em;
 }
 
-.header__container {
-  display: flex;
-  align-items: center;
-}
-
 .header__logo {
   margin-right: 93px;
   padding-top: 20px;
   padding-bottom: 20px;
-}
-
-.nav {
-  display: flex;
-  align-items: center;
 }
 
 .nav__list {
@@ -254,10 +250,8 @@ img {
 }
 
 .contacts__link {
-  display: flex;
   padding-top: 32px;
   padding-bottom: 32px;
-  align-items: center;
   transition: color var(--duration-animation) var(--timing-function);
 }
 
@@ -311,8 +305,6 @@ img {
 
 .project-card {
   display: block;
-  width: 100%;
-  height: 100%;
   transition: box-shadow var(--duration-animation) var(--timing-function);
 }
 
@@ -329,8 +321,6 @@ img {
   position: absolute;
   left: 0;
   top: 0;
-  opacity: 0;
-  overflow: scroll;
   width: 100%;
   height: 100%;
   padding: 63px 24px;
@@ -338,6 +328,8 @@ img {
   line-height: 1.56;
   color: var(--primary-bcg-color);
   background-color: rgba(33, 150, 243, 0.9);
+  opacity: 0;
+  overflow: scroll;
   transform: translateY(100%);
   transition: transform var(--duration-animation) var(--timing-function), opacity var(--duration-animation) var(--timing-function);
 }
@@ -416,8 +408,6 @@ img {
 
 .form-email {
   display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .form-email__input {
@@ -448,7 +438,6 @@ img {
 .form-email__btn {
   display: flex;
   justify-content: center;
-  align-items: center;
   padding: 10px 28px;
 }
 

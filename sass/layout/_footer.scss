@@ -1,6 +1,5 @@
 .footer {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  @include padding(60px, 60px);
   background-color: var(--secondary-bcg-color);
 }
 
@@ -48,8 +47,6 @@
 
 .form-email {
   display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .form-email__input {
@@ -80,7 +77,6 @@
 .form-email__btn {
   display: flex;
   justify-content: center;
-  align-items: center;
   padding: 10px 28px;
 }
 
