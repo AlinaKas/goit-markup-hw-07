@@ -7,7 +7,7 @@
 }
 
 .header__container {
-  @extend %align;
+  @include align-flex();
   // display: flex;
   // align-items: center;
 }
@@ -18,14 +18,15 @@
 }
 
 .nav {
-  @extend %align;
+  @include align-flex();
   // display: flex;
   // align-items: center;
 }
 
 .nav__list {
-  display: inline-flex;
-  align-items: center;
+  @include align-flex(inline-flex);
+  // display: inline-flex;
+  // align-items: center;
 }
 
 .nav__link {
@@ -68,8 +69,9 @@
 }
 
 .contacts {
-  display: inline-flex;
-  align-items: center;
+  @include align-flex(inline-flex);
+  // display: inline-flex;
+  // align-items: center;
   margin-left: auto;
 
   &__icon {
@@ -79,7 +81,7 @@
 }
 
 .contacts__link {
-  @extend %align;
+  @include align-flex();
   // display: flex;
   // align-items: center;
   @include padding(32px, 32px);

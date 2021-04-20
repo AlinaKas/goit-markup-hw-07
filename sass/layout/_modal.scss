@@ -26,10 +26,9 @@
   width: 30px;
   height: 30px;
 
-  @extend %align;
+  @include align-flex();
   // display: flex;
   // align-items: center;
-  justify-content: center;
 
   background-color: transparent;
   border: 1px solid rgba(0, 0, 0, 0.1);

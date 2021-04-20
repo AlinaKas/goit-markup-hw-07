@@ -4,7 +4,7 @@
 }
 
 .social-list__link {
-  @extend %align;
+  @include align-flex();
   // display: flex;
   // align-items: center;
   justify-content: center;

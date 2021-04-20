@@ -78,7 +78,7 @@
 }
 
 .contact-form__label-policy {
-  @extend %align;
+  @include align-flex();
   // display: flex;
   // align-items: center;
   justify-content: center;

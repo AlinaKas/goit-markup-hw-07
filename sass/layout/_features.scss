@@ -8,7 +8,7 @@
 }
 
 .feature__thumb {
-  @extend %align;
+  @include align-flex();
   // display: flex;
   // align-items: center;
   justify-content: center;
